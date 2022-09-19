@@ -1,0 +1,5 @@
+.env # ignore local environment variable file
+bin/ # ingore built executables
+main
+bin
+.idea
