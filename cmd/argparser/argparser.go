@@ -15,7 +15,6 @@ func NewArgParser(args []string) *ArgParser {
 	return &ArgParser{args: args}
 }
 
-// func (ptr *ArgParser) get() {int, int} {
 func (a ArgParser) Get() (int, int) {
 
 	// Check for the correct number of arguments
